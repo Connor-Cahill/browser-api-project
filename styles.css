@@ -1,0 +1,149 @@
+body { font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Concert One';
+}
+
+h1 {
+    font-family: 'Concert One';
+
+}
+/*********************
+------HEADERS & BYLINES SECTION------
+***********************/
+.main-header {
+    text-align: center;
+}
+.main-byline {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.justify-content-header {
+    margin-left: 50px;
+    font-size: 30px;
+
+}
+.justify-content-byline {
+    margin-left: 50px;
+    font-size: 17px;
+}
+.flex-direction-header {
+    margin-left: 50px;
+    font-size: 30px;
+}
+.flex-direction-byline {
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+
+/***********
+--BOX SECTION--
+************/
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+
+
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: blue;
+}
+
+.three {
+    background-color: green;
+}
+
+.four {
+    background-color: yellow;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.flex-btn {
+    height: 40px;
+    width: 125px;
+    font-size: 15px;
+    outline: none;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 200ms;
+
+}
+
+.flex-btn:hover {
+    transform: scale(1.10);
+    background-color: white;
+    color: purple;
+
+
+}
+
+.flex-btn:active {
+    /* transform: rotateX(30deg); */
+    transform: scale(0.8);
+}
+
+
+/*******************
+---CIRCLE SECTION ------
+********************/
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.a {
+    background-color: blue;
+}
+
+.b {
+    background-color: red;
+}
+
+.c {
+    background-color: purple;
+}
+
+.d {
+    background-color: lime;
+}
+
+.circle-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 150px;
+
+}
